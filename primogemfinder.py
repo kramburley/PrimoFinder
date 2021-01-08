@@ -24,7 +24,7 @@ pwd = '' #add email password here
 timedelay = 300 + random.randint(1, 1800);
 # timedelay = 5
 
-recipients = ["mark.tan@alianz.ca", 'lorenbeyd@gmail.com', 'ariston.ricky@gmail.com']
+recipients = ['test@email.com'] #update email recipient list here
 
 newCode = []
 
@@ -103,10 +103,3 @@ def run():
             break
 
 run()
-
-
-
-# TODO: CREATE A DUMMY EMAIL AND USE THAT
-# TODO: Check if actually counts number of word occurence or just checks if word exists or not. if word exist check only, think of another approach.
-# TODO: test by running program atleast once
-# TODO: add a random number of minutes to make the check less robotic in MiHoYo's eyes.
