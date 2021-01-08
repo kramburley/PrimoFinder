@@ -19,8 +19,8 @@ import sys
 
 # a script to monitor GenshinImpact's website promo code page for any changes. If something is added on the table on GI's promo page, send email to recipients
 url = "https://www.gensh.in/events/promotion-codes"
-un = 'specimen00101@gmail.com'
-pwd = '101specimen'
+un = '' #add email username here
+pwd = '' #add email password here
 timedelay = 300 + random.randint(1, 1800);
 # timedelay = 5
 
