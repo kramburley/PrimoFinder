@@ -29,5 +29,6 @@ Things to do before running:
 
 
 Identified Limitations:
+
 1.) Once promocode is detected and app sends an email. App shutsdown and user has to restart the program.
 2.) Once a new promo code is detected and used to send out email. Upon restarting program, will perform the same way until MiHoYo decides to change the status of promocode to 'NO'.
