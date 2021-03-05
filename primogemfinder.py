@@ -26,6 +26,7 @@ timedelay = 300 + random.randint(1, 1800);
 
 recipients = ['test@email.com'] #update email recipient list here
 
+usedCodes = ['jsSK8n23jzr','du2mhjQL1ZT','nBEm3myAL2b','153YuSaenh','Cuupmbjsvd','GSIMPTq125','5KVeIbSxDUU','G3tQq6TOqmE','eATDgIXLD56','GOLNXLAKC58','GENSHINGIFT','GENSHIN1111','GENSHINZHB30','GENSHINMHY0M','GENSHIN1006A','GENSHIN0928N']
 newCode = []
 
 def grabWebContent(url):
@@ -44,12 +45,13 @@ def checkNewCodes():
     table = soup.find_all('table')[0].tbody.find_all('tr')
 
     for i in table:
-        status = i.find_all('td')[1].text.replace(' ', '')
-        code = i.find_all('td')[3].text.replace(' ', '')
-
-        if status.lower() != 'yes': 
-            newCode.append(code)
+        status = i.find_all('td')[2].text.replace(' ', '')
+        code = i.find_all('td')[4].text.replace(' ', '')
     
+        if status.lower() != 'yes':
+            if (usedCodes.count(code) == 0):
+                newCode.append(code)
+                    
     return newCode
 
 
