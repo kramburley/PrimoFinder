@@ -30,6 +30,9 @@ Things to do before running:
 
 3.) run the created file under dist folder and wait for an email for new promocodes!
 
+NOTE:
+When running the app and you receive an authentication error, allow less secure apps in your google account.
+https://www.google.com/settings/security/lesssecureapps
 
 
 Identified Limitations:
