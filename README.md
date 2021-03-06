@@ -26,7 +26,7 @@ Things to do before running:
       (line 27) recipients: add as many email addresses to the list as you want i.e. ['sample@email.com', 'sample2@email.com']
       
       
-2.) compile by typing on the commandline pyinstaller --oneflie .\primogemfinder.py
+2.) compile by typing on the commandline pyinstaller --onefile .\primogemfinder.py
 
 3.) run the created file under dist folder and wait for an email for new promocodes!
 
